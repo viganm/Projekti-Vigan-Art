@@ -59,3 +59,12 @@ body{
 	background-color: #d9dbe0;
 
 }
+
+#login {
+	width: 400px;
+	height: 230px;
+	background-color: #1a9993;
+	margin: 0 auto;
+	margin-top: 200px;
+	border-radius: 15px;
+}

@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #c3c5c9;
+	background-color: #ade39f;
 }
 
 .header{
@@ -17,7 +17,7 @@ body{
 
 .header > h1{
 	font-family: 'Anton', sans-serif;
-	
+	color : white;
 }
 
 .navbar{
@@ -36,7 +36,8 @@ body{
 	font-family: 'Anton', cursive;
 	background-color: #6c996c;
 	border: none;
-	cursor: pointer;
+  cursor: pointer;
+  color: black;
 }
 
 .navbar a:hover {
@@ -57,6 +58,10 @@ body{
 	margin: 0 auto;
 	background-color: #d9dbe0;
 
+}
+
+.navbar > #loginbutton{
+  left: 90%;
 }
 
 * {box-sizing:border-box}
