@@ -61,9 +61,13 @@ body{
 
 }
 
-@media screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) {
   .navbar a {
     padding: 10px;
+  }
+
+  .slideshow-container {
+    width: 95%;
   }
 }
 
