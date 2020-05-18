@@ -67,10 +67,13 @@ body{
   }
 }
 
+
 * {box-sizing:border-box}
+
 
 .slideshow-container {
   max-width: 900px;
+  
   position: relative;
   margin: auto;
   margin-top: 5%;
@@ -78,7 +81,10 @@ body{
 
 .mySlides {
   display: none;
+ 
+  
 }
+
 
 .prev, .next {
   cursor: pointer;
