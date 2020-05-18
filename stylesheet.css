@@ -26,6 +26,7 @@ body{
 	width: 85%;
 	margin: auto;
   padding: 1%;
+  
 }
 
 .navbar > a{
@@ -60,8 +61,10 @@ body{
 
 }
 
-.navbar > #loginbutton{
-  left: 90%;
+@media screen and (max-width: 414px) {
+  .navbar a {
+    padding: 10px;
+  }
 }
 
 * {box-sizing:border-box}
@@ -70,6 +73,7 @@ body{
   max-width: 900px;
   position: relative;
   margin: auto;
+  margin-top: 5%;
 }
 
 .mySlides {
