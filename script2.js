@@ -1,15 +1,69 @@
-var left_cover = document.getElementById("left-cover");
-var left_form = document.getElementById("left-form");
+function Login() {
+    var Login = document.getElementsByClassName('LoginBox');
+    console.log(Login);
 
-var right_cover = document.getElementById("right-cover");
-var right_form = document.getElementById("right-form");
+    Login[0].classList.add('show');
+    Login[0].classList.remove('hide');
+    Login[1].classList.add('hide');
+    Login[1].classList.remove('show');
+}
 
-function switchSignup() {
-    right_form.classList.add("fade-in-element");
-    left_cover.classList.add("fade-in-element");
 
-    left_form.classList.add("form-hide");
-    left_cover.classList.remove("cover-hide");
-    right_form.classList.remove("form-hide");
-    right_cover.classList.add("cover-hide");
+
+window.onLoad = Login();
+
+function Register() {
+    var Login = document.getElementsByClassName('LoginBox');
+    console.log(Login);
+
+    Login[0].classList.add('hide');
+    Login[0].classList.remove('show');
+    Login[1].classList.add('show');
+    Login[1].classList.remove('hide');
+}
+
+function validateLogin() {
+    var username = document.getElementById('LogUser');
+    var password = document.getElementById('LogPass');
+
+    if (username.value.trim() == "" && password.value.trim() == "") {
+        alert('Please fill in your info');
+    }
+    else if (username.value.trim() == "") {
+        alert('Username cant be blank');
+        username.focus();
+    }
+    else if (password.value.trim() == "") {
+        alert('Password cant be blank');
+        password.focus();
+    }
+}
+
+function validateRegister() {
+    var username = document.getElementById('RegUser');
+    var password = document.getElementById('RegPass');
+    var email = document.getElementById('email');
+
+    if (username.value.trim() == "" && password.value.trim() == "" && email.value.trim() == "") {
+        alert('Please fill in your info');
+    }
+    else if (username.value.length < 6) {
+        alert('Username needs to be more than 6 characters');
+    }
+    else if (username.value.trim() == "") {
+        alert('Username cant be blank');
+        username.focus();
+    } else if (email.value.trim() == "") {
+        alert('email cant be blank');
+        email.focus();
+    } else if (password.value.trim() == "") {
+        alert('Password cant be blank');
+        password.focus();
+    }
+    else if (password.value.length < 8) {
+        alert('Password needs to be more than 8 characters');
+    }
+    else {
+        alert('User Created!');
+    }
 }
