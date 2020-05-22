@@ -89,11 +89,10 @@ body{
   
 }
 
-
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 300px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -152,6 +151,10 @@ body{
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+#info{
+  text-align: center;
+  font-family: 'Anton', cursive;
 }
 
 .pershkrimi{

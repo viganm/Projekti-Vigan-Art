@@ -191,17 +191,7 @@ input[type=email]{
     background:white ;
 }
 
-.box:before{
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    transform: skew(2deg,2deg);
-    z-index: -1;
-    background: linear-gradient(315deg,#ff0057,#e64a19);
-}
+
 
 .content2{
     position: realtive;
@@ -257,19 +247,6 @@ input[type=email]{
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-}
-
-
-.box2:before{
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    transform: skew(2deg,2deg);
-    z-index: -1;
-    background: linear-gradient(315deg,#ff0057,#e64a19);
 }
 
 .content3{
@@ -328,19 +305,6 @@ input[type=email]{
     border: 1px solid black;
 }
 
-.box3:before{
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    transform: skew(2deg,2deg);
-    z-index: -1;
-    background: linear-gradient(315deg,#ff0057,#e64a19);
-}
-
-
 .LoginRegister{
     display: flex;
     width: 300px;
@@ -349,7 +313,7 @@ input[type=email]{
     background: #6c996c;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid white;
     margin: auto;
     margin-top: 8%;
 }
@@ -409,7 +373,6 @@ input[type=email]{
 .LoginButton{
     width: 100%;
     height: 15%;
-    
 }
 
 
