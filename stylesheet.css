@@ -69,6 +69,11 @@ body{
   .slideshow-container {
     width: 95%;
   }
+
+  .navbartext{
+    font-size: 5px;
+  }
+  
 }
 
 

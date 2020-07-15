@@ -25,10 +25,12 @@
   <div class="navbar">
 
 
-    <a href="Home.html" style="text-decoration: none;"> HOME </a>
-    <a href="About.html" style="text-decoration: none;"> ABOUT </a>
-    <a href="Contact.html"> CONTACT </a>
-    <a href="Login.html" id="loginbutton" style="text-decoration: none;"> LOGIN </a>
+    <a href="Home.php" style="text-decoration: none;" class="navbartext"> HOME </a>
+    <a href="About.php" style="text-decoration: none;" class="navbartext"> ABOUT </a>
+    <a href="Contact.php" style="text-decoration: none;" class="navbartext"> CONTACT </a>
+    <a href="Stories.php" style="text-decoration: none;" class="navbartext"> STORIES </a>
+    <a href="Login.php" id="loginbutton" style="text-decoration: none;" class="navbartext"> ACCOUNT </a>
+    
 
   </div>
 

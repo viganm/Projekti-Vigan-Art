@@ -95,7 +95,7 @@ input[type=email]{
 	background-color: lightgray;
 	border-radius: 7px;
 	border: none;
-	cursor: pointer;
+	
 }
 #email{
     padding-left: 20%;
@@ -431,5 +431,8 @@ input[type=email]{
     section{
         flex-direction: column;
         
+    }
+    .navbartext{
+        font-size: 12.5px;
     }
 }

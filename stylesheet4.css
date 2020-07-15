@@ -85,5 +85,9 @@ body{
 	#personiY{
 		margin-top: 5%;
 	}
+	.navbar a:hover {
+		text-shadow: 3px 3px gray;
+		
+	}
 
 }

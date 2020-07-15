@@ -36,37 +36,55 @@ body{
 	font-family: 'Anton', cursive;
 	background-color: #6c996c;
 	border: none;
-  cursor: pointer;
-  color: black;
+    cursor: pointer;
+    color: black;
 }
 
 .navbar a:hover {
 	text-shadow: 3px 3px gray;
-  padding-left: 20px;
-  padding-right: 35px;
-  padding-left: 35px;
+    padding-left: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
 	transform: scale(1.2);
 	background-color: #c3c5c9;
 	transition:0.7s;
 }
 
-.main{
-    width: 50%;
+.content{
+    font-family: 'Anton', sans-serif;
     text-align: center;
     margin: auto;
-    font-size: 24px;
-	margin-top: 5%;
+    font-size: 20px;
+    margin-top: 5%;
 }
+.butonatwelcome{
+    margin: 2%;
+    padding: 0.2%;
+    border: solid;
+    border: #6c996c;
+    border-radius: 15%;
+    background-color: #6c996c;
+}
+
 
 @media only screen and (max-width: 414px) {
 	.navbar a {
-	  padding: 10px;
-	}
+      padding: 10px;
+    }
+    
 	.main{
 		width: 70%;
 		font-size: 20px;
-	}
-	.navbartext{
+    }
+    .content{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .content p{
+        margin: 20%;
+    }
+    .navbartext{
         font-size: 12.5px;
     }
+    
 }
